@@ -1,4 +1,4 @@
-'''
+
 MAIOR_IDADE = 18
 
 idade = int(input("informe sua idade"))
@@ -11,13 +11,12 @@ if idade < MAIOR_IDADE:
     
 if idade >= MAIOR_IDADE:
     print("Mairo de idade, pode tirara habilitação")
-else:
-    print("Ainda nao pode, tirar a Cnh")
-'''
+
+
  # serve para comentar linha inteira enquanto 3 aspas ele comenta um escopo
  
 
-'''
+
 conta_normal = False
 conta_universitaria = True
 
@@ -39,16 +38,15 @@ elif conta_universitaria:
     else:
         print( "Saldo insuficientel")
 
-'''
 
-'''
+
 saldo = 2000
 saque = 2000
 
 status = "Sucesso" if saldo >= saque else "Falha"
 print(f"{status} ao realizar o saque!")
-'''    
-'''
+   
+
 frutas = ["maçã", "banana", "cereja"]
 for fruta in frutas:
     print(fruta)
@@ -57,9 +55,9 @@ for fruta in frutas:
 pessoas_idades = {"Alice": 30, "Bob": 25, "Charlie": 35}
 for nome, idade in pessoas_idades.items():
     print(f"{nome} tem {idade} anos")
-'''
 
-''' 
+
+ 
 opcao = 1
 
 while opcao != 0:
@@ -68,9 +66,9 @@ while opcao != 0:
     if opcao == 10:
         break
 print(opcao)
-'''
 
-'''
+
+
 opcao = True
 
 while True:
@@ -79,23 +77,23 @@ while True:
     if opcao == 10:
         break
 print(opcao)
-'''
 
-'''
+
+
 for numero  in range(100):
             
     if numero == 12:
         break
     print(numero, end=" ")
 
-'''
 
-''''
+
+
 for numero  in range(100):
    if numero % 2 == 0:
       continue # o continue ele pula a execução  
    print(numero, end=" ")
-'''
+
 
 
               

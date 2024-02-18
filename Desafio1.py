@@ -1,15 +1,15 @@
-'''
+
 T = input("Rafael")
 
 if len(T) > 10:
     print("MUTE")
 else:
     print("TWEET")
-'''
 
 
 
-"""
+
+
 def encaixa(A, B):
     # Verifica se os últimos dígitos de A correspondem a B
     return A[-len(B):] == B
@@ -26,4 +26,3 @@ for _ in range(N):
         print("encaixa")
     else:
         print("nao encaixa")
-"""

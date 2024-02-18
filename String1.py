@@ -1,4 +1,3 @@
-'''
 nome = "Rafael Bondioli de paula"
 
 print(nome.upper())
@@ -19,7 +18,7 @@ print(menu.center(20,"#"))
 print("P-Y-T-H-O-N")
 print("-".join(menu))
 
-'''
+
 
 
 
