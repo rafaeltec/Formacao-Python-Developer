@@ -1,10 +1,10 @@
-nome = "Guilherme"
+nome = "Rafael"
 idade = 28
 profissao = "Programador"
 linguagem = "Python"
 saldo = 45.4512345674
 
-dados = {"nome": "Guilherme", "idade": 28}
+dados = {"nome": "Rafael", "idade": 28}
 
 print("nome: %s idade: %d" % (nome, idade))
 

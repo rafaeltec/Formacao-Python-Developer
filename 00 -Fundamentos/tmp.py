@@ -1,22 +1,3 @@
-
-MAIOR_IDADE = 18
-
-idade = int(input("informe sua idade"))
-
-if idade >= MAIOR_IDADE:
-    print("Mairo de idade, pode tirara habilitação")
-    
-if idade < MAIOR_IDADE:
-    print("Ainda nao pode, tirar a Cnh")
-    
-if idade >= MAIOR_IDADE:
-    print("Mairo de idade, pode tirara habilitação")
-
-
- # serve para comentar linha inteira enquanto 3 aspas ele comenta um escopo
- 
-
-
 conta_normal = False
 conta_universitaria = True
 
@@ -40,12 +21,12 @@ elif conta_universitaria:
 
 
 
-saldo = 2000
-saque = 2000
 
-status = "Sucesso" if saldo >= saque else "Falha"
-print(f"{status} ao realizar o saque!")
-   
+
+
+
+
+
 
 frutas = ["maçã", "banana", "cereja"]
 for fruta in frutas:
@@ -69,30 +50,6 @@ print(opcao)
 
 
 
-opcao = True
-
-while True:
-    opcao = int (input("informe um número:"))
-    
-    if opcao == 10:
-        break
-print(opcao)
-
-
-
-for numero  in range(100):
-            
-    if numero == 12:
-        break
-    print(numero, end=" ")
-
-
-
-
-for numero  in range(100):
-   if numero % 2 == 0:
-      continue # o continue ele pula a execução  
-   print(numero, end=" ")
 
 
 

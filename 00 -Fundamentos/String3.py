@@ -1,6 +1,6 @@
 
 # tecnica de fatiamento em python, fatiando string
-nome = "Guilherme Arthur de Carvalhe"
+nome = "Rafael  Bondioli de Paula"
 print (nome[0])
 print (nome[-1])
 print (nome[:9])
