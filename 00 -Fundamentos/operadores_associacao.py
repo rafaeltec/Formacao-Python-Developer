@@ -1,5 +1,6 @@
 # Cria uma lista chamada 'frutas' contendo os elementos "limao" e "uva".
 frutas = ["limao", "uva"]
+
 # Cria uma string 'curso' com o conteúdo "Curso de python".
 curso = "Curso de python"
 
