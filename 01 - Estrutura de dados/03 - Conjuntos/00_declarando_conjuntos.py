@@ -19,3 +19,7 @@ carros = set(("palio", "gol", "celta", "palio"))
 # A saída será um conjunto com os elementos únicos da tupla, por exemplo, {"gol", "celta", "palio"}.
 # Novamente, a ordem dos elementos na saída pode variar.
 print(carros)  # {"gol", "celta", "palio"}
+
+linguagens = {"python","java","python"}
+print(linguagens)
+
