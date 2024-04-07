@@ -28,11 +28,13 @@ c = Cachorro("Chappie", "amarelo")
 # Cachorro "fala"
 c.falar()
 
+
+
 # Imprime na tela
-print("Ola mundo")
+print(c)
 
 # Deleta a instância c do cachorro
-del c
+#del c
 
 # Imprime na tela
 print("Ola mundo")
