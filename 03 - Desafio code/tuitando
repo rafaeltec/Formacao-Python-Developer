@@ -1,0 +1,14 @@
+def verifica_tamanho_tweet(texto):
+    if len(texto) <= 140:
+        return "TWEET"
+    else:
+        return "MUTE"
+
+# Entrada do usuário
+texto = input()
+
+# Verificando o tamanho do texto
+resultado = verifica_tamanho_tweet(texto)
+
+# Imprimindo o resultado
+print(resultado)
